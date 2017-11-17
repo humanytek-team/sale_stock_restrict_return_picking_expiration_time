@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+      <record id="return_time_expired" model="stock.warehouse.return">
+        <field name="name">Tiempo vencido para devolucion</field>
+        <field name="active" eval="True"/>
+      </record>
+
+    </data>
+  </openerp>

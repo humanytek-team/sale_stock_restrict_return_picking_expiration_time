@@ -27,4 +27,4 @@ class ResCompany(models.Model):
     _inherit='res.company'
 
     sale_return_time_expiration_days = fields.Integer(
-        'Quantity of days for expiration of sales')
+        'Quantity of days for expiration of returns')

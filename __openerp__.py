@@ -30,9 +30,15 @@
     'website': "http://www.humanytek.com",
     'category': 'Stock',
     'version': '0.1.0',
-    'depends': ['sale', 'stock'],
+    'depends': [
+        'sale',
+        'stock',
+        'stock_warehouse_returns',
+        'stock_return_picking_with_reason', ],
     'data': [
+        'data/stock_warehouse_returns_data.xml',
         'views/res_company_view.xml',
+        'wizard/stock_return_picking_view.xml',
     ],
     'demo': [
     ],
